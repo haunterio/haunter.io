@@ -97,8 +97,24 @@ h2 {
   color: #610047;
 }
 
+h3 {
+  color: #260024;
+  line-height: 3em;
+}
+
+.theme h2 a {
+  color: #610047;
+  text-decoration: none;
+}
+
+.theme h2 a:hover {
+  color: #ff1962;
+}
+
 .theme p {
   color: #260024;
+  line-height: 3em;
+  padding: 5px 0;
 }
 
 .theme img {
@@ -111,4 +127,8 @@ a {
 
 a:hover {
   color: #ff9b9d;
+}
+
+span.bold {
+  font-weight: 700;
 }
