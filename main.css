@@ -1,0 +1,114 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic|Open+Sans:400,700);
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  font-family: 'Droid Serif', serif;
+  font-size: 18px;
+  background-color: #ffffff;
+}
+
+header {
+  box-sizing: border-box;
+  background-color: #610047;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding-top: 150px;
+}
+
+header h1 {
+  font-size: 4em;
+  font-family: 'Open Sans', sans-serif;
+  color: #ff9b9d;
+  line-height: 1.75em;
+  text-transform: uppercase;
+}
+
+header p {
+  font-size: 1.75em;
+  font-family: 'Open Sans', sans-serif;
+  color: #ff1962;
+  line-height: 1.5em;
+}
+
+header img {
+  height: 300px;
+}
+
+#about {
+  position: relative;
+  box-sizing: border-box;
+  width: 900px;
+  height: 100%;
+  margin: 0 auto;
+  padding-top: 150px;
+}
+
+#about h2 {
+  font-size: 1.5em;
+}
+
+#about p {
+  font-size: 1.5em;
+  line-height: 1.75em;
+  padding-bottom: 30px;
+}
+
+.button {
+  padding: 5px 20px;
+  border: 2px solid #ff1962;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 1.25em;
+  line-height: 5em;
+}
+
+.button:hover {
+  background-color: #ff1962;
+  color: #ffffff;
+}
+
+#themes {
+  padding: 50px 0;
+  background-color: #f0f0f0;
+}
+
+.theme {
+  position: relative;
+  width: 900px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  line-height: 3em;
+  color: #610047;
+}
+
+.theme p {
+  color: #260024;
+}
+
+.theme img {
+  padding: 30px 0;
+}
+
+a {
+  color: #ff1962;
+}
+
+a:hover {
+  color: #ff9b9d;
+}
