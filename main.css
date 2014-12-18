@@ -22,7 +22,7 @@ header {
   width: 100%;
   height: 100%;
   text-align: center;
-  padding: 10% 20px 10% 20px;
+  padding: 10% 20px 0 20px;
 }
 
 header h1 {
@@ -40,7 +40,7 @@ header p {
 }
 
 header img {
-  height: 300px;
+  height: 250px;
 }
 
 #about {
@@ -137,10 +137,6 @@ span.bold {
     font-size: 2.5em;
   }
 
-  header p {
-    font-size: 1.75em;
-  }
-
   #themes img {
     display: none;
   }
@@ -156,8 +152,14 @@ span.bold {
   }
 }
 
-@media screen and (max-height:520px) {
-  header img {
-    height: 200px;
+@media screen and (max-height:500px) {
+  header p {
+    font-size: 1.25em;
+  }
+}
+
+@media screen and (min-height:501px) {
+  header p {
+    font-size: 1.75em;
   }
 }
